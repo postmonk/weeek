@@ -3,7 +3,7 @@ const yandexWikiToken = 'y0_AgAAAAB62vn2AAY5wwAAAAEc0puFAAD63d0S6WVLcKPXeZKrwBvu
 
 // 2. Функция для запроса контента с API Яндекс Wiki
 async function fetchWikiContent(token) {
-    const url = 'https://api.wiki.yandex.net/v2/pages/yuctest'; // Замените на id вашей страницы
+    const url = 'https://api.wiki.yandex.ru/v2/pages/yuctest'; // Замените на id вашей страницы
      try{
         const response = await fetch(url, {
          headers: {
