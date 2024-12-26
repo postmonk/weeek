@@ -1,0 +1,9 @@
+{
+  "place": "sidebar",
+  "title": "Yandex Wiki",
+  "config": {
+    "yandex_wiki_token": "e53c9d1c-6f4b-401f-8f6f-82134840a1da"
+  },
+  "ui_url": "https://postmonk.github.io/weeek/widget.js",
+  "is_sandbox": true
+}
